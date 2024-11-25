@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-midnight-900 via-midnight-800 to-midnight-700 text-gray-100 min-h-screen;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-midnight-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-purple-700;
+}
